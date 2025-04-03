@@ -34,6 +34,8 @@ This Android application is a Personal Finance Tracker developed as a group assi
     * Screenshots of the app. [cite: 19]
     * Explanation of how mobile computing topics were applied. [cite: 19]
 
+## Memebers
+* Oratile
 ## Mark Allocation
 
 | Section                                            | Marks |
