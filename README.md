@@ -36,7 +36,6 @@ This Android application is a Personal Finance Tracker developed as a group assi
 
 ## Memebers
 * Oratile
-* Prince
 ## Mark Allocation
 
 | Section                                            | Marks |
