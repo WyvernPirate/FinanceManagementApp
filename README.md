@@ -37,7 +37,6 @@ This Android application is a Personal Finance Tracker developed as a group assi
 ## Members
 * Oratile Chilliboy
 * Phemelo Moloi
-* Prince Sebina
 * Salim Isabyre
 ## Mark Allocation
 
