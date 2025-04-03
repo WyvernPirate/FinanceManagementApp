@@ -34,8 +34,11 @@ This Android application is a Personal Finance Tracker developed as a group assi
     * Screenshots of the app. [cite: 19]
     * Explanation of how mobile computing topics were applied. [cite: 19]
 
-## Memebers
-* Oratile
+## Members
+* Oratile Chilliboy
+* Phemelo Moloi
+* Prince Sebina
+* Salim Isabyre
 ## Mark Allocation
 
 | Section                                            | Marks |
