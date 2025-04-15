@@ -2,10 +2,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TransactionsFragment">
+    tools:context=".AccountsFragment">
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/transactions_recycler_view"
+        android:id="@+id/accounts_recycler_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:padding="8dp"
@@ -17,7 +17,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
-        android:text="@string/no_transactions"
+        android:text="@string/no_accounts"
         android:textSize="18sp"
         android:visibility="gone" />
 

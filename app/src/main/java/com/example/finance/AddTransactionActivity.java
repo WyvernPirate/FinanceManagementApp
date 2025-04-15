@@ -36,7 +36,7 @@ public class AddTransactionActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_add_transaction);
+        setContentView(R.layout.add_transaction);
 
         // Log lifecycle event
         Log.d("LifecycleEvents", "AddTransactionActivity: onCreate called");

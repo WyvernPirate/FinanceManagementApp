@@ -12,15 +12,46 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Finance"
         tools:targetApi="31">
+
+        <!-- Main entry point -->
         <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- Splash screen activity -->
+        <activity
+            android:name=".SplashActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Finance.NoActionBar" />
+
+        <!-- Dashboard activity -->
+        <activity
+            android:name=".DashboardActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Finance.NoActionBar" />
+
+        <!-- Add Transaction activity -->
+        <activity
+            android:name=".AddTransactionActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Finance.NoActionBar" />
+
+        <!-- Reports activity -->
+        <activity
+            android:name=".ReportsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Finance.NoActionBar" />
+
+        <!-- Settings activity -->
+        <activity
+            android:name=".SettingsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Finance.NoActionBar" />
     </application>
 
 </manifest>

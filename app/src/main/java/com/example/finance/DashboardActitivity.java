@@ -14,6 +14,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
+import androidx.viewpager.widget.PagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -24,7 +25,17 @@ public class DashboardActivity extends AppCompatActivity {
     private Toolbar toolbar;
     private TabLayout tabLayout;
     private ViewPager viewPager;
-    private PagerAdapter pagerAdapter;
+    private PagerAdapter pagerAdapter = new PagerAdapter() {
+        @Override
+        public int getCount() {
+            return 0;
+        }
+
+        @Override
+        public boolean isViewFromObject(@NonNull View view, @NonNull Object object) {
+            return false;
+        }
+    };
     private TextView balanceTextView;
     private TextView budgetTextView;
     private FloatingActionButton fabAddTransaction;
@@ -55,7 +66,6 @@ public class DashboardActivity extends AppCompatActivity {
         tabLayout = findViewById(R.id.tab_layout);
         viewPager = findViewById(R.id.view_pager);
 
-        pagerAdapter = new PagerAdapter(getSupportFragmentManager());
         pagerAdapter.addFragment(new AccountsFragment(), "Accounts");
         pagerAdapter.addFragment(new BudgetsFragment(), "Budgets");
         pagerAdapter.addFragment(new TransactionsFragment(), "Transactions");
